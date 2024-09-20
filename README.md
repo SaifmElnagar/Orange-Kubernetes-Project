@@ -16,8 +16,6 @@ This project sets up a multi-tier application architecture using Kubernetes, con
 
 Each tier is deployed as a Kubernetes Deployment with 2 replicas for high availability, and they communicate with each other through Kubernetes Services. The database credentials are securely mounted in the respective pods.
 
-```
-
 ## Kubernetes Resources
 
 ### Deployments
@@ -35,9 +33,7 @@ Each tier is deployed as a Kubernetes Deployment with 2 replicas for high availa
 - **Persistent Volume Claim (`db-data-pvc.yaml`)**: Requests storage for MySQL from the PersistentVolume.
 - **Secret (`db-secret.yaml`)**: Stores MySQL database credentials and mounts them securely into the database pod.
 
-##
----
-
+## Project Output
 
 
 
