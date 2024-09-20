@@ -36,6 +36,9 @@ Each tier is deployed as a Kubernetes Deployment with 2 replicas for high availa
 ## Project Output
 
 
+!(.)[https://github.com/SaifmElnagar/Orange-Kubernetes-Project/blob/main/Screenshot%20from%202024-09-20%2018-56-18.png]
+
+
 
 
 
