@@ -42,3 +42,7 @@ Each tier is deployed as a Kubernetes Deployment with 2 replicas for high availa
 - kubectl configured to access your cluster.
 
 ---
+
+
+
+
