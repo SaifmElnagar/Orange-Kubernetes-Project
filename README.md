@@ -35,13 +35,10 @@ Each tier is deployed as a Kubernetes Deployment with 2 replicas for high availa
 - **Persistent Volume Claim (`db-data-pvc.yaml`)**: Requests storage for MySQL from the PersistentVolume.
 - **Secret (`db-secret.yaml`)**: Stores MySQL database credentials and mounts them securely into the database pod.
 
-
-
-## Requirements
-- Kubernetes cluster (Minikube, EKS, GKE, etc.)
-- kubectl configured to access your cluster.
-
 ---
+
+
+
 
 
 
